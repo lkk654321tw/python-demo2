@@ -1,0 +1,15 @@
+<html>
+  <head>
+    {% if title %}
+    <title> {{title}} qhuc demo2 </title>
+    {% else %}
+    <title> 'LKK  qhuc demo2' </title>
+    {% endif %}
+
+  </head>
+  <body>
+     <div> Simon: <a href="/index"> Home </a></div>
+     <hr>
+     {% block content %} {%endblock%}
+  </body>
+</html>
